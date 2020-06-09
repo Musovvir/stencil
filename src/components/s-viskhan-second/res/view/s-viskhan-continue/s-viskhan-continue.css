@@ -1,0 +1,54 @@
+.container {
+  max-width: 1024px;
+  margin: auto;
+  background-color: black;
+  border-radius: 4px;
+}
+
+.cont-3 {
+  color: white;
+  margin: 60px 0 60px 260px;
+  position: relative;
+}
+
+.text-1 {
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+.text-2 {
+  font-size: 0.9em;
+  margin-bottom: 30px;
+}
+
+.bt {
+  height: 40px;
+  color: white;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+}
+
+.image {
+  position: absolute;
+  border-radius: 2px;
+  top: -40px;
+  right: -200px;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin-top: 40px;
+  }
+
+  .cont-3 {
+    color: white;
+    margin: 30px 0 30px 30px;
+    position: relative;
+    font-size: 0.9em;
+  }
+
+  .image {
+    display: none;
+  }
+}

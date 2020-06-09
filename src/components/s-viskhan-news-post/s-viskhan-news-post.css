@@ -1,0 +1,68 @@
+.container {
+  max-width: 1024px;
+  margin-top: 50px;
+}
+
+.phone {
+  width: 560px;
+  height: 380px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+}
+
+.text-1 {
+  color: blue;
+  font-size: 0.9em;
+}
+
+.text-2 {
+  margin-top: 20px;
+  font-family: "Rubik", sans-serif;
+  font-size: 2.1em;
+}
+
+.text-3 {
+  opacity: 0.5;
+  font-size: 1.1em;
+}
+
+.cont-btn {
+  margin: 25px 0 80px 0;
+  background-color: blue;
+  border-radius: 8px;
+  color: white;
+  height: 35px;
+  border: none;
+}
+
+.cont-2 {
+  position: relative;
+}
+
+.link {
+  position: absolute;
+  top: -45px;
+  right: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .phone {
+    width: 370px;
+    height: 240px;
+    margin-bottom: 10px;
+  }
+
+  .text-2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+
+  .text-3 {
+    opacity: 0.5;
+    font-size: 0.8em;
+  }
+
+  .cont-btn {
+    margin: 15px 0 40px 0;
+  }
+}

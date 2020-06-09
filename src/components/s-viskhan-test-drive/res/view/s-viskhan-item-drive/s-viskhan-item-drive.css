@@ -1,0 +1,80 @@
+.cont-6-1 {
+  font-size: 3em;
+  color: white;
+  margin: 50px 0 10px 40px;
+  font-family: "Prompt", sans-serif;
+}
+
+.cont-6-2 {
+  color: white;
+  opacity: 0.6;
+  font-size: 1.1em;
+  margin: 0 0 70px 40px;
+}
+
+.see {
+  text-decoration: underline;
+}
+
+.cont-6-0 {
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 110px 60px 0 0;
+  width: 280px;
+  text-align: right;
+}
+
+.cont-btn {
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: blue;
+  color: white;
+}
+
+.enter {
+  padding: 0 30px 0 8px;
+  opacity: 0.7;
+  color: white;
+}
+
+.cont-6-0-1 {
+}
+
+.icon-1 {
+  color: white;
+  opacity: 0.7;
+  margin: 20px 15px 0 15px;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    margin-bottom: 30px;
+  }
+  .cont-6-0 {
+    border-radius: 10px;
+    margin: 40px 60px 20px 40px;
+    text-align: right;
+  }
+
+  .cont-6-1 {
+    font-size: 2em;
+    margin: 25px 0 10px 20px;
+  }
+
+  .cont-6-2 {
+    color: white;
+    opacity: 0.6;
+    font-size: 0.8em;
+    margin: 0 0 0 20px;
+  }
+
+  .cont {
+    justify-content: center;
+    text-align: right;
+  }
+
+  .icon-1 {
+    margin: 0 15px 20px 15px;
+  }
+}

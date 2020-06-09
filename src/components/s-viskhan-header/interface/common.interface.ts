@@ -1,0 +1,31 @@
+export interface SViskhanHeaderItem {
+  text: any;
+  titl_1: any;
+  item_1: any;
+  item_2: any;
+  item_3: any;
+  titl_2: any;
+  item_4: any;
+  item_5: any;
+  item_6: any;
+  item_7: any;
+  item_8: any;
+  item_9: any;
+  item_10: any;
+  titl_3: any;
+  item_11: any;
+  item_12: any;
+  item_13: any;
+  item_14: any;
+  titl_4: any;
+  titl_5: any;
+  item_15: any;
+  item_16: any;
+  item_17: any;
+  titl_6: any;
+  item_18: any;
+  item_19: any;
+  subtext_1: any;
+  subtext_2: any;
+  subtext_3: any;
+}

@@ -1,0 +1,43 @@
+.container {
+  font-family: "Rubik", sans-serif;
+}
+
+.cont-2 {
+  position: relative;
+}
+
+.image {
+  border-radius: 3px;
+  width: 130px;
+  height: 135px;
+}
+
+.cont-2-1 {
+  margin-bottom: 40px;
+}
+
+.text-1,
+.text-2,
+.text-3 {
+  margin-left: 20px;
+}
+
+.text-1 {
+  font-size: 0.8em;
+  color: darkorchid;
+  margin-bottom: 15px;
+}
+
+.text-2 {
+  margin-bottom: 10px;
+  font-size: 0.95em;
+}
+
+.text-3 {
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
+.text-3:hover {
+  color: blue;
+}

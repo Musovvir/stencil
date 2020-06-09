@@ -1,0 +1,40 @@
+.image {
+  width: 320px;
+  height: 260px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.text-1 {
+  font-size: 0.9em;
+  color: #f1d7a8;
+}
+
+.text-2 {
+  margin: 15px 0 20px 0;
+}
+
+.text-3 {
+  text-decoration: underline;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.text-3:hover {
+  color: blue;
+}
+
+@media only screen and (max-width: 400px) {
+  .cont-5 {
+    margin: 0 0 0 10px;
+  }
+
+  .image {
+    width: 320px;
+    height: 260px;
+    margin: 20px 0 0 0;
+  }
+  .text-1 {
+    margin-top: 10px;
+  }
+}
